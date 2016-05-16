@@ -1,8 +1,5 @@
--Name: Eden Dolev
--UNI: ed2566
--Motivation: I am very interested in image processing. I think an elaboration of this project could be a great way to perform regular tasks with gestures only (i.e. leaving the process in the background).
 -Modules: OpenCV3 with numpy and pickle.
--Instructions on installing opencv3.0.0 module (not using pip):
+-Instructions on installing opencv3.0.0 module (using anaconda python 3):
 conda create -n opencv numpy scipy scikit-learn matplotlib python=3
 source activate opencv
 Might need this: (conda install -c trung tbb=4.3_20141023)
