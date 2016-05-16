@@ -2,10 +2,10 @@
 
 -Instructions on installing opencv3.0.0 module (using anaconda python 3):
 
-conda create -n opencv numpy scipy scikit-learn matplotlib python=3
-source activate opencv
-Might need this: (conda install -c trung tbb=4.3_20141023)
-conda install -c jlaura opencv3=3.0.0
+$ conda create -n opencv numpy scipy scikit-learn matplotlib python=3
+$ source activate opencv
+$ Might need this: (conda install -c trung tbb=4.3_20141023)
+$ conda install -c jlaura opencv3=3.0.0
 
 -Usage: Use left mouse click to drag a rectangle on your marker. Marker should be a unique color on the screen (i.e. only green object) and ideally will have a small surface area. Then use 'm' key to toggle drawing mode to start drawing on the screen with the marker. When you're done click 'r' to enter shell-command-typing-mode, type in your shell command and click enter to save the binding. Use 'd' after drawing a gesture to find the closest match of the saved gestures and execute the corresponding shell command.
 
